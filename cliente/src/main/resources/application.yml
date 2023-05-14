@@ -1,13 +1,7 @@
-server:
-  port: 8081
 spring:
-  jpa:
-    hibernate.ddl-auto: update
-    show-sql: true
-    generate-ddl: true
-  datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/clients
-    username: root
-    password:
-
+  application:
+    name: cliente-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://root:Exam3n@localhost:9090
