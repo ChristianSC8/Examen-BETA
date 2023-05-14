@@ -1,0 +1,18 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Giovani85/Examen-BETA.git
+          search-paths: config-data
+          username: Giovani85
+          password: x570.aorus2001
+          default-label: main
+  security:
+    user:
+      name: root
+      password: Exam3n
