@@ -16,9 +16,9 @@ public class ClienteApplication {
     @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI().info(new Info()
-                .title("OPEN API MICROSERVICIO PRODUCTO ")
+                .title("OPEN API MICROSERVICIO CLIENTE ")
                 .version("0.0.1")
-                .description("Servicios web productos")
+                .description("Servicios web cliente")
                 .termsOfService("http://swagger.io/terms/")
                 .license(new License().name("Apache 2.0").url("http://springdoc.org"))
         );
