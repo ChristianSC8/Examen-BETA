@@ -17,3 +17,7 @@ spring:
     username: root
     password:
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: $EUREKA_URI:http://localhost:8090/eureca
