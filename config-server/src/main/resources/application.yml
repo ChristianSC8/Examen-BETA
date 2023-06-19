@@ -7,10 +7,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Giovani85/Examen-BETA.git
+          uri: https://github.com/ChristianSC8/Examen-BETA.git
           search-paths: config-data
-          username: Giovani85
-          password: x570.aorus2001
+          username: ChristianSC8
+          password: @irbusA350
           default-label: main
   security:
     user:
