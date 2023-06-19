@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/ChristianSC8/Examen-BETA.git
           search-paths: config-data
           username: ChristianSC8
-          password: @irbusA350
+          password: x570.airbusA350
           default-label: main
   security:
     user:
